@@ -15,8 +15,8 @@ if type=='n'
             end            
         end
         if(j>c)
-                break;
-            end 
+            break;
+        end 
         free(k)=j;
         k=k+1;
     end

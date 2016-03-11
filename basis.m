@@ -1,4 +1,4 @@
-function basis = get_basis(X,type)
+function basis = basis(X,type)
 % type r->row, c->column, n->null
 if type=='n'
     % for null space we find rref of X

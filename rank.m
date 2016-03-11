@@ -1,4 +1,4 @@
-function rank = get_rank(A)
+function rank = rank(A)
 A=row_reduced_echleon_form(A);% find the rref
 [r,c]=size(A);% size of A
 rank=0;%initialize rank as 0

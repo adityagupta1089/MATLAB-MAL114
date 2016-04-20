@@ -9,6 +9,6 @@ for i=1:c
     for j=1:i-1
         u(:,i)=u(:,i)-proj(u(:,j),v(:,i));
     end
-    % for orthonormalizaion u(:,i)=u(:,i)/norm(u(:,i));
+    % for orthonormalizaion   u(:,i)=u(:,i)/norm(u(:,i));
 end
 

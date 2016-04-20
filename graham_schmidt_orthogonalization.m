@@ -1,5 +1,5 @@
-function u = gram_schmidt_orthogonalization( v )
-% Returns n orthogonal vectors from n independent vectors using gram
+function u = graham_schmidt_orthogonalization( v )
+% Returns n orthogonal vectors from n independent vectors using graham
 % schmidt orthogonalization
 [~,c]=size(v);
 u=zeros(size(v));

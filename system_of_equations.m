@@ -1,5 +1,5 @@
 function system_of_equations(A,B)
-[r,c]=size(A);% finding number of rows
+[r,~]=size(A);% finding number of rows
 C=[A B];% augmented matrix [A|B]
 ra=rank(A);% rank of A
 rc=rank(C);%rank of B

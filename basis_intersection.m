@@ -3,7 +3,7 @@ function B = basis_intersection(U,V)
 % a1u1+a2u2+...anun+b1(-v)+b2(-v2)+....bn(-vn)=0
 % hence [U -V][a1 a2...an b1 b2... bn]'=0
 A=[U -V];
-% basis of (a1 a2 ... an b1 b2 ... bn) = basis of null space of A
+% basis of (a1 a2 ... an b1 b2 ... bn)=0 is basis of null space of A
 basis_ab = basis(A,'n');
 % top half is basis of ai's
 [r,~]=size(basis_ab);
